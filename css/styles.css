@@ -1,0 +1,70 @@
+/* *{
+font-family: monospace;
+}
+
+body{
+    font-size: 22px;
+}
+button,input,textarea,select{
+    font:inherit;
+}
+main{
+    font-style: italic;
+}
+
+p {
+color: purple;
+}
+h1,h2{
+color:blue;
+}
+p span{
+text-transform :lowercase;
+background-color: gold;
+}
+
+
+.gray{
+color:rgb(6, 4, 1);
+}
+#second {
+font-style: italic;
+} */
+/* 
+body {
+    font-family: monospace;
+    background-color: papayawhip;
+    color: rgb(0, 0, 0);
+}
+p{
+    color:rgba(0,0,0,1);
+    color:#333
+    
+} */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: borderbox;
+}
+
+h1{
+    border: 2px dashed;;
+    width:50%;
+    font-size: 3rem;
+    padding: 0.5em;
+} 
+p{
+    width: 40ch;
+    
+}
+body{
+    margin: 2rem;
+}
+
+
+.circle{
+    border: 10px double red;
+    width: 100px;
+    height: 100px;
+    border-radius: 80px;
+}
