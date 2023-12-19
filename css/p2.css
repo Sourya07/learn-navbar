@@ -2,13 +2,28 @@
     margin: 0;
     padding: 0;
     font-size: 26px;
+    
+    
 }
-p{
-    background: grey;
+section{
+    background-image: url("/images/img-6.jpg");
+    background-color: red;
+   display:flow-root;
 }
+
 .row{
     height: 20vh;
     width: 20vh;
+    
     color: white;
     background: black;
 }
+.right{
+   float: right;
+   margin-right: 2rem;
+  
+}
+.clear{
+  clear: both;
+}
+
